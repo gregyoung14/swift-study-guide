@@ -56,8 +56,8 @@
     {
         "id": 10,
         "path": "swift-fundamentals/introduction/key-features-and-philosophies.md",
-        "completed": false,
-        "status": "pending"
+        "completed": true,
+        "status": "completed"
     },
     {
         "id": 11,
