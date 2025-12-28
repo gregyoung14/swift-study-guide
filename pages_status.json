@@ -32,20 +32,20 @@
     {
         "id": 6,
         "path": "swift-fundamentals/introduction/history-and-evolution-of-swift.md",
-        "completed": false,
-        "status": "pending"
+        "completed": true,
+        "status": "completed"
     },
     {
         "id": 7,
         "path": "swift-fundamentals/introduction/industry-relevance-and-demand.md",
-        "completed": false,
-        "status": "pending"
+        "completed": true,
+        "status": "completed"
     },
     {
         "id": 8,
         "path": "swift-fundamentals/introduction/installing-xcode.md",
-        "completed": false,
-        "status": "pending"
+        "completed": true,
+        "status": "completed"
     },
     {
         "id": 9,
