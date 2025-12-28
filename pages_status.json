@@ -62,8 +62,8 @@
     {
         "id": 11,
         "path": "swift-fundamentals/introduction/macos-development.md",
-        "completed": false,
-        "status": "pending"
+        "completed": true,
+        "status": "completed"
     },
     {
         "id": 12,
