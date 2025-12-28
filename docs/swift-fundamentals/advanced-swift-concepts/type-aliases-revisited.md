@@ -1,3 +1,6 @@
+---
+id: 723
+---
 ﻿# Type Aliases (Revisited)
 
 Detailed content for Type Aliases (Revisited) goes here.

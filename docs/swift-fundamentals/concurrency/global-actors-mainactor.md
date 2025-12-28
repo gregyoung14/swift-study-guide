@@ -1,3 +1,6 @@
+---
+id: 810
+---
 ﻿# Global Actors (`@MainActor`)
 
 Detailed content for Global Actors (`@MainActor`) goes here.

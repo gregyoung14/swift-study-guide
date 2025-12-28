@@ -1,3 +1,6 @@
+---
+id: 1120
+---
 ﻿# Swift 5.1 (Module Stability, Function Builders)
 
 Detailed content for Swift 5.1 (Module Stability, Function Builders) goes here.

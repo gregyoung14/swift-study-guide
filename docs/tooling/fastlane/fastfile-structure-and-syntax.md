@@ -1,3 +1,6 @@
+---
+id: 1623
+---
 ﻿# `Fastfile` Structure and Syntax
 
 Detailed content for `Fastfile` Structure and Syntax goes here.

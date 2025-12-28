@@ -1,3 +1,6 @@
+---
+id: 1238
+---
 ﻿# Getters and Setters (`get`, `set`)
 
 Detailed content for Getters and Setters (`get`, `set`) goes here.

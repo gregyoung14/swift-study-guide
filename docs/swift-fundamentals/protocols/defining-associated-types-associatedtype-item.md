@@ -1,3 +1,6 @@
+---
+id: 1182
+---
 ﻿# Defining Associated Types (`associatedtype Item`)
 
 Detailed content for Defining Associated Types (`associatedtype Item`) goes here.
