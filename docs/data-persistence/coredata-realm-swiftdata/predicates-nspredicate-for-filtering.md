@@ -1,0 +1,3 @@
+﻿# Predicates (`NSPredicate` for Filtering)
+
+Detailed content for Predicates (`NSPredicate` for Filtering) goes here.

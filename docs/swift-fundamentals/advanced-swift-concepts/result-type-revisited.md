@@ -1,0 +1,3 @@
+﻿# Result Type (Revisited)
+
+Detailed content for Result Type (Revisited) goes here.

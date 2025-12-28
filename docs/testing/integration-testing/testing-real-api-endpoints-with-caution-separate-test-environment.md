@@ -1,0 +1,3 @@
+﻿# Testing Real API Endpoints (with caution, separate test environment)
+
+Detailed content for Testing Real API Endpoints (with caution, separate test environment) goes here.
