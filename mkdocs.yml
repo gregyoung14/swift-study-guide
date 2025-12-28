@@ -1,0 +1,60 @@
+site_name: Swift Study Guide
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+
+nav:
+    - Home: index.md
+    - 'Part 1: Swift Fundamentals':
+        - Introduction to Swift: swift-fundamentals/introduction.md
+        - Basic Syntax and Data Types: swift-fundamentals/basic-syntax.md
+        - Control Flow: swift-fundamentals/control-flow.md
+        - Functions and Closures: swift-fundamentals/functions-closures.md
+        - Structs and Classes: swift-fundamentals/structs-classes.md
+        - Enums: swift-fundamentals/enums.md
+        - Optionals: swift-fundamentals/optionals.md
+        - Protocols: swift-fundamentals/protocols.md
+        - Generics: swift-fundamentals/generics.md
+        - Error Handling: swift-fundamentals/error-handling.md
+        - Memory Management (ARC, Ownership): swift-fundamentals/memory-management.md
+        - Concurrency (Grand Central Dispatch, Operations, async/await): swift-fundamentals/concurrency.md
+        - Advanced Swift Concepts: swift-fundamentals/advanced-swift-concepts.md
+        - Newest Swift Features and Changes: swift-fundamentals/newest-features.md
+    - 'Part 2: iOS Architecture & Design Patterns':
+        - VIPER, MVVM, Clean Architecture: architecture/viper-mvvm-clean.md
+        - SOLID Principles: architecture/solid-principles.md
+        - Dependency Injection: architecture/dependency-injection.md
+        - Design Patterns (Creational, Structural, Behavioral): architecture/design-patterns.md
+        - Modularization: architecture/modularization.md
+    - 'Part 3: UI Development':
+        - UIKit vs SwiftUI: ui/uikit-vs-swiftui.md
+        - Advanced Auto Layout: ui/advanced-auto-layout.md
+        - Custom UI Components: ui/custom-ui-components.md
+        - Accessibility: ui/accessibility.md
+        - Performance Optimization (UI): ui/performance-ui.md
+    - 'Part 4: Testing':
+        - Unit Testing: testing/unit-testing.md
+        - UI Testing: testing/ui-testing.md
+        - Integration Testing: testing/integration-testing.md
+        - Test Driven Development (TDD): testing/tdd.md
+        - Mocking & Stubbing: testing/mocking-stubbing.md
+    - 'Part 5: Networking & Data Persistence':
+        - RESTful APIs & GraphQL: networking/rest-graphql.md
+        - Core Data vs Realm vs SwiftData: data-persistence/coredata-realm-swiftdata.md
+        - Caching Strategies: networking/caching.md
+        - Security in Networking: networking/security.md
+    - 'Part 6: Tooling & Workflow':
+        - Git Advanced: tooling/git-advanced.md
+        - CI/CD for iOS: tooling/ci-cd.md
+        - Fastlane: tooling/fastlane.md
+        - Debugging Techniques: tooling/debugging.md
+        - Performance Monitoring: tooling/performance-monitoring.md
+    - 'Part 7: Best Practices & Soft Skills':
+        - Code Review Best Practices: best-practices/code-review.md
+        - Project Management (Agile, Scrum): best-practices/project-management.md
+        - Mentoring & Leadership: best-practices/mentoring-leadership.md
+        - Interview Preparation: best-practices/interview-prep.md

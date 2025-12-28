@@ -1,0 +1,41 @@
+# Generics
+
+## Overview
+This section explores generics in Swift, a powerful feature that allows you to write flexible, reusable functions and types that can work with any type, while still providing type safety. We will cover the core concepts of generics, how to use them in functions, types, and protocols, and their practical benefits in building robust and adaptable iOS applications.
+
+## Table of Contents
+
+- [What are Generics?](#what-are-generics)
+    - [The Problem Without Generics (Code Duplication, Lack of Type Safety)](#the-problem-without-generics-code-duplication-lack-of-type-safety)
+    - [The Solution with Generics (Flexible and Reusable Code)](#the-solution-with-generics-flexible-and-reusable-code)
+- [Generic Functions](#generic-functions)
+    - [Defining Generic Functions (`func swap<T>(a: inout T, b: inout T)`)](#defining-generic-functions-func-swapt-a-inout-t-b-inout-t)
+    - [Type Parameters (`<T>`, `<Element>`, `<Key: Hashable, Value>`)](#type-parameters-t-element-key-hashable-value)
+    - [Type Constraints (`where` clause or `: Protocol`)](#type-constraints-where-clause-or-protocol)
+        - [`where` Clauses with Generic Functions](#where-clauses-with-generic-functions)
+        - [Confining Types to Protocols (`<T: Equatable>`)](#confining-types-to-protocols-t-equatable)
+        - [Confining Types to Class Types (`<T: SomeClass>`)](#confining-types-to-class-types-t-someclass)
+- [Generic Types](#generic-types)
+    - [Generic Structs (e.g., `Stack<Element>`)](#generic-structs-eg-stackelement)
+    - [Generic Classes (e.g., `Box<T>`)](#generic-classes-eg-boxt)
+    - [Generic Enums (e.g., `Optional<Wrapped>`)](#generic-enums-eg-optionalwrapped)
+    - [Type Parameters in Generic Types](#type-parameters-in-generic-types)
+    - [Extending a Generic Type](#extending-a-generic-type)
+    - [Extending a Generic Type with a `where` Clause](#extending-a-generic-type-with-a-where-clause)
+- [Generic Protocols with Associated Types](#generic-protocols-with-associated-types)
+    - [Associated Types (revisited - placeholders for concrete types)](#associated-types-revisited-placeholders-for-concrete-types)
+    - [Adding Constraints to Associated Types (`associatedtype Item: Equatable`)](#adding-constraints-to-associated-types-associatedtype-item-equatable)
+    - [Using `where` Clauses with Associated Types](#using-where-clauses-with-associated-types)
+- [Generic `where` Clauses](#generic-where-clauses)
+    - [Applying `where` Clauses to Functions and Types](#applying-where-clauses-to-functions-and-types)
+    - [Applying `where` Clauses to Protocol Extensions](#applying-where-clauses-to-protocol-extensions)
+    - [Shorthand for `where` Clauses](#shorthand-for-where-clauses)
+- [Opaque Types (`some Protocol`) (revisited)](#opaque-types-some-protocol-revisited)
+    - [Returning Opaque Types (API Abstraction, Type Erasure)](#returning-opaque-types-api-abstraction-type-erasure)
+    - [Benefits and Use Cases of Opaque Types](#benefits-and-use-cases-of-opaque-types)
+    - [Comparison with `any Protocol` (Existential Types)](#comparison-with-any-protocol-existential-types)
+- [Any and AnyObject vs Generics](#any-and-anyobject-vs-generics)
+    - [`Any` (Any Type) and `AnyObject` (Any Class Type)](#any-any-type-and-anyobject-any-class-type)
+    - [Type Safety Comparison (Generics Provide Compile-Time Safety)](#type-safety-comparison-generics-provide-compile-time-safety)
+    - [Performance Considerations (Generics vs. Dynamic Dispatch)](#performance-considerations-generics-vs-dynamic-dispatch)
+    - [When to Use `Any`/`AnyObject` (Bridging, Untyped Data)](#when-to-use-anyanyobject-bridging-untyped-data)
