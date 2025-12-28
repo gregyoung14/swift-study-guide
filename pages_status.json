@@ -164,26 +164,26 @@
     {
         "id": 28,
         "path": "swift-fundamentals/basic-syntax/accessing-and-modifying-elements-indexing-append-insert-remove.md",
-        "completed": false,
-        "status": "pending"
+        "completed": true,
+        "status": "completed"
     },
     {
         "id": 29,
         "path": "swift-fundamentals/basic-syntax/accessing-and-modifying-values-subscript-update-value.md",
-        "completed": false,
-        "status": "pending"
+        "completed": true,
+        "status": "completed"
     },
     {
         "id": 30,
         "path": "swift-fundamentals/basic-syntax/array-methods-count-isempty-first-last-contains-sorted-filter-map.md",
-        "completed": false,
-        "status": "pending"
+        "completed": true,
+        "status": "completed"
     },
     {
         "id": 31,
         "path": "swift-fundamentals/basic-syntax/arrays.md",
-        "completed": false,
-        "status": "pending"
+        "completed": true,
+        "status": "completed"
     },
     {
         "id": 32,
