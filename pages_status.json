@@ -50,8 +50,8 @@
     {
         "id": 9,
         "path": "swift-fundamentals/introduction/ios-development.md",
-        "completed": false,
-        "status": "pending"
+        "completed": true,
+        "status": "completed"
     },
     {
         "id": 10,
