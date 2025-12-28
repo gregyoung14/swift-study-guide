@@ -1,17 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "mkdocs.yml",
-      "use": "@vercel/python",
-      "config": {
-        "buildCommand": "mkdocs build"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/site/$1"
-    }
-  ]
+  "buildCommand": "pip install -r requirements.txt && mkdocs build",
+  "outputDirectory": "site"
 }
